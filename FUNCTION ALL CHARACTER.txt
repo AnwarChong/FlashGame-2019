@@ -1,0 +1,695 @@
+//CHARACTER LIST
+
+
+//***************************************************************************************************
+                                        //SEIYA CHARACTER
+//****************************************************************************************************
+var SeiyaTR:Boolean=false;
+var SeiyaTL:Boolean=false;
+var SeiyaTF:Boolean=false;
+var SeiyaTB:Boolean=false;
+var SeiyaDirection:String="";
+var SeiyaAttack:Boolean=false;
+
+
+
+
+function SeiyaStandF(){
+seiyaMC.gotoAndStop("standF");
+}
+
+function SeiyaStandB(){
+seiyaMC.gotoAndStop("standB");
+}
+
+function SeiyaStandR(){
+seiyaMC.gotoAndStop("standR");
+}
+
+function SeiyaStandL(){
+seiyaMC.gotoAndStop("standL");
+}
+
+function SeiyaWalkF(){
+seiyaMC.gotoAndStop("walkF");
+}
+
+function SeiyaWalkB(){
+seiyaMC.gotoAndStop("walkB");
+}
+
+function SeiyaWalkR(){
+seiyaMC.gotoAndStop("walkR");
+}
+
+function SeiyaWalkL(){
+seiyaMC.gotoAndStop("walkL");
+}
+
+function SeiyaAttackF(){
+seiyaMC.gotoAndStop("attackF");
+}
+
+function SeiyaAttackB(){
+seiyaMC.gotoAndStop("attackB");
+}
+
+function SeiyaAttackR(){
+seiyaMC.gotoAndStop("attackR");
+}
+
+function SeiyaAttackL(){
+seiyaMC.gotoAndStop("attackL");
+}
+function SeiyaBlank(){
+seiyaMC.gotoAndStop("blank");
+}
+
+SeiyaStandF();
+//***************************************************************************************************
+                                        //EREN CHARACTER
+//****************************************************************************************************
+
+var ErenTR:Boolean=false;
+var ErenTL:Boolean=false;
+var ErenTF:Boolean=false;
+var ErenTB:Boolean=false;
+var ErenDirection:String="";
+var ErenAttack:Boolean=false;
+
+function ErenStandF(){
+erenMC.gotoAndStop("standF");
+}
+function ErenStandB(){
+erenMC.gotoAndStop("standB");
+}
+function ErenStandR(){
+erenMC.gotoAndStop("standR");
+}
+function ErenStandL(){
+erenMC.gotoAndStop("standL");
+}
+
+function ErenWalkF(){
+erenMC.gotoAndStop("walkF");
+}
+
+function ErenWalkB(){
+erenMC.gotoAndStop("walkB");
+}
+
+function ErenWalkR(){
+erenMC.gotoAndStop("walkR");
+}
+
+function ErenWalkL(){
+erenMC.gotoAndStop("walkL");
+}
+
+function ErenAttackF(){
+erenMC.gotoAndStop("attackF");
+}
+
+function ErenAttackB(){
+erenMC.gotoAndStop("attackB");
+}
+
+function ErenAttackR(){
+erenMC.gotoAndStop("attackR");
+}
+
+function ErenAttackL(){
+erenMC.gotoAndStop("attackL");
+}
+
+function ErenBlank(){
+erenMC.gotoAndStop("blank");
+}
+ErenBlank();
+
+//***************************************************************************************************
+                                        //KAZUMA CHARACTER
+//****************************************************************************************************
+
+var KazumaTR:Boolean=false;
+var KazumaTL:Boolean=false;
+var KazumaTF:Boolean=false;
+var KazumaTB:Boolean=false;
+var KazumaDirection:String="";
+var KazumaAttack:Boolean=false;
+
+
+
+
+function KazumaStandF(){
+kazumaMC.gotoAndStop("standF");
+}
+
+function KazumaStandB(){
+kazumaMC.gotoAndStop("standB");
+}
+
+function KazumaStandR(){
+kazumaMC.gotoAndStop("standR");
+}
+
+function KazumaStandL(){
+kazumaMC.gotoAndStop("standL");
+}
+
+function KazumaWalkF(){
+kazumaMC.gotoAndStop("walkF");
+}
+
+function KazumaWalkB(){
+kazumaMC.gotoAndStop("walkB");
+}
+
+function KazumaWalkR(){
+kazumaMC.gotoAndStop("walkR");
+}
+
+function KazumaWalkL(){
+kazumaMC.gotoAndStop("walkL");
+}
+
+function KazumaAttackF(){
+kazumaMC.gotoAndStop("attackF");
+}
+
+function KazumaAttackB(){
+kazumaMC.gotoAndStop("attackB");
+
+
+function KazumaAttackR(){
+kazumaMC.gotoAndStop("attackR");
+}
+
+function KazumaAttackL(){
+kazumaMC.gotoAndStop("attackL");
+}
+
+function KazumaBlank(){
+kazumaMC.gotoAndStop("blank");
+}
+
+KazumaBlank();
+
+//***************************************************************************************************
+                                        //NATSU CHARACTER
+//****************************************************************************************************
+
+var NatsuTR:Boolean=false;
+var NatsuTL:Boolean=false;
+var NatsuTF:Boolean=false;
+var NatsuTB:Boolean=false;
+var NatsuDirection:String="";
+var NatsuAttack:Boolean=false;
+
+function NatsuStandF(){
+natsuMC.gotoAndStop("standF");	
+}
+
+
+function NatsuStandB(){
+natsuMC.gotoAndStop("standB");	
+}
+
+
+function NatsuStandL(){
+natsuMC.gotoAndStop("standL");	
+}
+
+
+function NatsuStandR(){
+natsuMC.gotoAndStop("standR");	
+}
+
+
+function NatsuWalkF(){
+natsuMC.gotoAndStop("walkF");	
+}
+
+
+function NatsuWalkB(){
+natsuMC.gotoAndStop("walkB");	
+}
+
+
+function NatsuWalkL(){
+natsuMC.gotoAndStop("walkL");	
+}
+
+
+function NatsuWalkR(){
+natsuMC.gotoAndStop("walkR");	
+}
+
+
+function NatsuAttackF(){
+natsuMC.gotoAndStop("attackF");	
+}
+
+
+function NatsuAttackB(){
+natsuMC.gotoAndStop("attackB");	
+}
+
+
+function NatsuAttackL(){
+natsuMC.gotoAndStop("attackL");	
+}
+
+
+function NatsuAttackR(){
+natsuMC.gotoAndStop("attackR");	
+}
+
+
+function NatsuBlank(){
+natsuMC.gotoAndStop("blank");	
+}
+
+NatsuBlank();
+
+
+//***************************************************************************************************
+                                        //LUTFI CHARACTER
+//****************************************************************************************************
+
+var LutfiTR:Boolean=false;
+var LutfiTL:Boolean=false;
+var LutfiTF:Boolean=false;
+var LutfiTB:Boolean=false;
+var LutfiDirection:String="";
+var LutfiAttack:Boolean=false;
+
+function LutfiStandF(){
+lutfiMC.gotoAndStop("standF");
+}
+
+function LutfiStandB(){
+lutfiMC.gotoAndStop("standB");
+}
+
+function LutfiStandR(){
+nastuMC.gotoAndStop("standR");
+}
+
+function LutfiStandL(){
+lutfiMC.gotoAndStop("standL");
+}
+
+function LutfiWalkF(){
+lutfiMC.gotoAndStop("walkF");
+}
+
+function LutfiWalkB(){
+lutfiMC.gotoAndStop("walkB");
+}
+
+function LutfiWalkR(){
+lutfiMC.gotoAndStop("walkR");
+}
+
+function LutfiWalkL(){
+lutfiMC.gotoAndStop("walkL");
+}
+
+function LutfiAttackF(){
+lutfiMC.gotoAndStop("attackF");
+}
+
+function LutfiAttackB(){
+lutfiMC.gotoAndStop("attackB");
+}
+
+function LutfiAttackR(){
+lutfiMC.gotoAndStop("attackR");
+}
+
+function LutfiAttackL(){
+lutfiMC.gotoAndStop("attackL");
+}
+
+function LutfiBlank(){
+lutfiMC.gotoAndStop("blank");
+}
+LutfiBlank();
+
+
+
+//***************************************************************************************************
+                                        //OVERLORD CHARACTER
+//****************************************************************************************************
+
+var OverlordTR:Boolean=false;
+var OverlordTL:Boolean=false;
+var OverlordTF:Boolean=false;
+var OverlordTB:Boolean=false;
+var OverlordDirection:String="";
+var OverlordAttack:Boolean=false;
+
+function OverlordStandF(){
+overlordMC.gotoAndStop("standF");
+}
+
+function OverlordStandB(){
+overlordMC.gotoAndStop("standB");
+}
+
+function OverlordStandR(){
+overlordMC.gotoAndStop("standR");
+}
+
+function OverlordStandL(){
+overlordMC.gotoAndStop("standL");
+}
+
+
+function OverlordWalkF(){
+overlordMC.gotoAndStop("walkF");
+}
+
+function OverlordWalkB(){
+overlordMC.gotoAndStop("walkB");
+}
+
+function OverlordWalkR(){
+overlordMC.gotoAndStop("walkR");
+}
+
+function OverlordWalkL(){
+overlordMC.gotoAndStop("walkL");
+}
+
+function OverlordAttackF(){
+overlordMC.gotoAndStop("attackF");
+}
+
+function OverlordAttackB(){
+overlordMC.gotoAndStop("attackB");
+}
+
+function OverlordAttackR(){
+overlordMC.gotoAndStop("attackR");
+}
+
+function OverlordAttackL(){
+overlordMC.gotoAndStop("attackL");
+}
+
+function OverlordBlank(){
+overlordMC.gotoAndStop("blank");
+}
+OverlordBlank();
+
+
+
+//***************************************************************************************************
+                                        //NARUTO CHARACTER
+//****************************************************************************************************
+
+var NarutoTR:Boolean=false;
+var NarutoTL:Boolean=false;
+var NarutoTF:Boolean=false;
+var NarutoTB:Boolean=false;
+var NarutoDirection:String="";
+var NarutoAttack:Boolean=false;
+
+function NarutoStandF(){
+narutoMC.gotoAndStop("standF");
+}
+
+function NarutoStandB(){
+narutoMC.gotoAndStop("standB");
+}
+
+function NarutoStandR(){
+narutoMC.gotoAndStop("standR");
+}
+
+function NarutoStandL(){
+narutoMC.gotoAndStop("standL");
+}
+
+function NarutoWalkF(){
+narutoMC.gotoAndStop("walkF");
+}
+
+function NarutoWalkB(){
+narutoMC.gotoAndStop("walkB");
+}
+
+function NarutoWalkR(){
+narutoMC.gotoAndStop("walkR");
+}
+
+function NarutoWalkL(){
+narutoMC.gotoAndStop("walkL");
+}
+
+function NarutoAttackF(){
+narutoMC.gotoAndStop("attackF");
+}
+
+function NarutoAttackB(){
+narutoMC.gotoAndStop("attackB");
+}
+
+function NarutoAttackR(){
+narutoMC.gotoAndStop("attackR");
+}
+
+function NarutoAttackL(){
+narutoMC.gotoAndStop("attackL");
+}
+
+function NarutoBlank(){
+narutoMC.gotoAndStop("blank");
+}
+NarutoBlank();
+
+
+
+//***************************************************************************************************
+                                        //DEKU CHARACTER
+//****************************************************************************************************
+
+var DekuTR:Boolean=false;
+var DekuTL:Boolean=false;
+var DekuTF:Boolean=false;
+var DekuTB:Boolean=false;
+var DekuDirection:String="";
+var DekuAttack:Boolean=false;
+
+function DekuStandF(){
+dekuMC.gotoAndStop("standF");
+}
+
+function DekuStandB(){
+dekuMC.gotoAndStop("standB");
+}
+
+function DekuStandR(){
+dekuMC.gotoAndStop("standR");
+}
+
+function DekuStandL(){
+dekuMC.gotoAndStop("standL");
+}
+
+function DekuWalkF(){
+dekuMC.gotoAndStop("walkF");
+}
+
+function DekuWalkB(){
+dekuMC.gotoAndStop("walkB");
+}
+
+function DekuWalkR(){
+dekuMC.gotoAndStop("walkR");
+}
+
+function DekuWalkL(){
+dekuMC.gotoAndStop("walkL");
+}
+
+function DekuAttackF(){
+dekuMC.gotoAndStop("attackF");
+}
+
+function DekuAttackB(){
+dekuMC.gotoAndStop("attackB");
+}
+
+function DekuAttackR(){
+dekuMC.gotoAndStop("attackR");
+}
+
+function DekuAttackL(){
+dekuMC.gotoAndStop("attackL");
+}
+
+function DekuBlank(){
+dekuMC.gotoAndStop("blank");
+}
+DekuBlank();
+
+
+
+//***************************************************************************************************
+                                        //NAOFUMI CHARACTER
+//****************************************************************************************************
+
+var NaofumiTR:Boolean=false;
+var NaofumiTL:Boolean=false;
+var NaofumiTF:Boolean=false;
+var NaofumiTB:Boolean=false;
+var NaofumiDirection:String="";
+var NaofumiAttack:Boolean=false;
+
+function NaofumiStandF(){
+naofumiMC.gotoAndStop("standF");
+}
+
+function NaofumiStandB(){
+naofumiMC.gotoAndStop("standB");
+}
+
+function NaofumiStandR(){
+naofumiMC.gotoAndStop("standR");
+}
+
+function NaofumiStandL(){
+naofumiMC.gotoAndStop("standL");
+}
+
+
+function NaofumiWalkF(){
+naofumiMC.gotoAndStop("walkF");
+}
+
+
+function NaofumiWalkB(){
+naofumiMC.gotoAndStop("walkB");
+}
+
+
+function NaofumiWalkR(){
+naofumiMC.gotoAndStop("walkR");
+}
+
+
+function NaofumiWalkL(){
+naofumiMC.gotoAndStop("walkL");
+}
+
+
+function NaofumiAttackF(){
+naofumiMC.gotoAndStop("attackF");
+}
+
+
+function NaofumiAttackB(){
+naofumiMC.gotoAndStop("attackB");
+}
+
+
+function NaofumiAttackR(){
+naofumiMC.gotoAndStop("attackR");
+}
+
+
+function NaofumiAttackL(){
+naofumiMC.gotoAndStop("attackL");
+}
+
+
+function NaofumiBlank(){
+naofumiMC.gotoAndStop("blank");
+}
+
+
+NaofumiBlank();
+
+
+
+//***************************************************************************************************
+                                        //SAITAMA CHARACTER
+//****************************************************************************************************
+
+
+var SaitamaTR:Boolean=false;
+var SaitamaTL:Boolean=false;
+var SaitamaTF:Boolean=false;
+var SaitamaTB:Boolean=false;
+var SaitamaDirection:String="";
+var SaitamaAttack:Boolean=false;
+
+function SaitamaStandF(){
+saitamaMC.gotoAndStop("standF");
+}
+
+function SaitamaStandB(){
+saitamaMC.gotoAndStop("standB");
+}
+
+function SaitamaStandR(){
+saitamaMC.gotoAndStop("standR");
+}
+
+function SaitamaStandL(){
+saitamaMC.gotoAndStop("standL");
+}
+
+
+function SaitamaWalkF(){
+saitamaMC.gotoAndStop("walkF");
+}
+
+
+function SaitamaWalkB(){
+saitamaMC.gotoAndStop("walkB");
+}
+
+
+function SaitamaWalkR(){
+saitamaMC.gotoAndStop("walkR");
+}
+
+
+function SaitamaWalkL(){
+saitamaMC.gotoAndStop("walkL");
+}
+
+
+function SaitamaAttackF(){
+saitamaMC.gotoAndStop("attackF");
+}
+
+
+function SaitamaAttackB(){
+saitamaMC.gotoAndStop("attackB");
+}
+
+
+function SaitamaAttackR(){
+saitamaMC.gotoAndStop("attackR");
+}
+
+
+function SaitamaAttackL(){
+saitamaMC.gotoAndStop("attackL");
+}
+
+
+function SaitamaBlank(){
+saitamaMC.gotoAndStop("blank");
+}
+
+SaitamaBlank();
+
+
+
+
